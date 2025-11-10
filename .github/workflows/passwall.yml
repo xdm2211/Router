@@ -148,6 +148,7 @@ jobs:
           FEEDNAME: packages_ci
           PACKAGES: luci-app-passwall ipt2socks
           NO_REFRESH_CHECK: true
+          V: s
 
       - name: Zip apk packages
         run: |
